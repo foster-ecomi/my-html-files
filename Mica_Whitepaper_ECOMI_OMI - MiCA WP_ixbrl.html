@@ -1,0 +1,1136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<html    xmlns:mica="https://www.esma.europa.eu/taxonomy/2025-03-31/mica/"
+   xmlns:gen="http://xbrl.org/2008/generic"
+   xmlns:lei-fn="http://www.xbrl.org/taxonomy/int/lei/2020-07-02/functions"
+   xmlns:xbrldt="http://xbrl.org/2005/xbrldt"
+   xmlns:variable="http://xbrl.org/2008/variable"
+   xmlns:xl="http://www.xbrl.org/2003/XLink"
+   xmlns:lei="http://www.xbrl.org/taxonomy/int/lei/2020-07-02"
+   xmlns:cf="http://xbrl.org/2008/filter/concept"
+   xmlns:valm="http://xbrl.org/2010/message/validation"
+   xmlns:link="http://www.xbrl.org/2003/linkbase"
+   xmlns:enum2="http://xbrl.org/2020/extensible-enumerations-2.0"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:validation="http://xbrl.org/2008/validation"
+   xmlns:dtr-types_2="http://www.xbrl.org/dtr/type/2022-03-31"
+   xmlns:dtr-types="http://www.xbrl.org/dtr/type/2020-01-21"
+   xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+   xmlns:msg="http://xbrl.org/2010/message"
+   xmlns:va="http://xbrl.org/2008/assertion/value"
+   xmlns:cfi="http://xbrl.org/2010/custom-function"
+   xmlns:label="http://xbrl.org/2008/label"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xmlns:ef="http://xbrl.org/2008/filter/entity"
+   xmlns:xbrli="http://www.xbrl.org/2003/instance"
+   xmlns="http://www.w3.org/1999/xhtml"
+   xmlns:ix="http://www.xbrl.org/2013/inlineXBRL"
+   xmlns:ixt="http://www.xbrl.org/inlineXBRL/transformation/2011-07-31"
+   xmlns:negated="http://www.xbrl.org/2009/role/negated"
+   xmlns:net="http://www.xbrl.org/2009/role/net"
+   xmlns:nonnum="http://www.xbrl.org/dtr/type/non-numeric"
+   xmlns:num="http://www.xbrl.org/dtr/type/numeric"
+   xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+   xsi:schemaLocation="http://xbrl.org/2006/xbrldi http://www.xbrl.org/2006/xbrldi-2006.xsd
+                       http://www.xbrl.org/2003/instance http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd"
+>
+<head>
+   <title>iXBRL report for the MICA taxonomy</title>
+   <script type="text/javascript" src="http://www.xbrl.org/ixbrl-samples/es6-shim.js"></script>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js" ></script>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/interact.js/1.2.6/interact.min.js" ></script>
+   <script type="text/javascript" src="http://www.xbrl.org/ixbrl-samples/ixbrl-inspector.js"></script>
+
+    <style type="text/css">
+      td,tr,h1,h2,h3{
+    font-family:calibri,sans-serif;
+    font-size:16px;
+    color:#000000;
+    background-color:#FFFFFF;
+    border-width:thin;
+    vertical-align:bottom;
+    text-align:left;
+    border-left-color:black;
+    border-right-color:black;
+    border-top-color:black;
+    border-bottom-color:black;
+}
+
+td{
+    border-left-style:solid;
+    border-right-style:solid;
+    border-top-style:solid;
+    border-bottom-style:solid;
+}
+    </style>
+</head>
+<body>
+
+        <div style="display:none">
+          <ix:header>
+            <ix:references>
+              <link:schemaRef xlink:type="simple"  xlink:href="https://www.esma.europa.eu/taxonomy/mica/2025-03-31/mica_entry_table_2.xsd"/>
+            </ix:references>
+            <ix:resources>
+        <xbrli:context id="_ctx1">
+            <xbrli:entity>
+                <xbrli:identifier scheme="http://standards.iso.org/iso/17442">9845003CBD4V52EF4C80</xbrli:identifier>
+            </xbrli:entity>
+            <xbrli:period>
+                <xbrli:startDate>2025-01-01</xbrli:startDate>
+                <xbrli:endDate>2025-12-31</xbrli:endDate>
+            </xbrli:period>
+        </xbrli:context></ix:resources>
+          </ix:header>
+        </div>
+<div class="toc">
+<h2>Table of Contents</h2>
+<div class="toc-item"><a href="#General_Information">General Information</a></div>
+<div class="toc-item"><a href="#SUMMARY">SUMMARY</a></div>
+<div class="toc-item"><a href="#Part_A_-_Information_about_the_Offeror_or_the_Person_Seeking_Admission_to_Trading">Part A - Information about the Offeror or the Person Seeking Admission to Trading</a></div>
+<div class="toc-item"><a href="#Part_B_-_Information_about_the_Issuer,_If_Different_from_the_Offeror_or_Person_Seeking_Admission_to_Trading">Part B - Information about the Issuer, If Different from the Offeror or Person Seeking Admission to Trading</a></div>
+<div class="toc-item"><a href="#Part_C_-_Information_about_the_Operator_of_the_Trading_Platform">Part C - Information about the Operator of the Trading Platform</a></div>
+<div class="toc-item"><a href="#Part_D_-_Information_about_the_Crypto-Asset_Project">Part D - Information about the Crypto-Asset Project</a></div>
+<div class="toc-item"><a href="#Part_E_-_Information_about_the_Offer_to_the_Public_of_Crypto-Assets_or_their_Admission_to_Trading">Part E - Information about the Offer to the Public of Crypto-Assets or their Admission to Trading</a></div>
+<div class="toc-item"><a href="#Part_F_-_Information_about_the_Crypto-Assets">Part F - Information about the Crypto-Assets</a></div>
+<div class="toc-item"><a href="#Part_G_-_Information_on_the_Rights_and_Obligations_attached_to_the_Crypto-Assets">Part G - Information on the Rights and Obligations attached to the Crypto-Assets</a></div>
+<div class="toc-item"><a href="#Part_H_-_Information_on_the_underlying_technology">Part H - Information on the underlying technology</a></div>
+<div class="toc-item"><a href="#Part_I_-_Information_on_Risks">Part I - Information on Risks</a></div>
+<div class="toc-item"><a href="#Part_J_–_Information_on_the_sustainability_indicators_in_relation_to_adverse_impact_on_the_climate_and_other_environment-related_adverse_impacts">Part J – Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts</a></div>
+</div>
+<table style="margin:0px auto; border:0px; width:80%;" cellspacing="0">
+<tr><td colspan="2" style="color:#FFF;height:20px;border-width:0;"/></tr>
+<tr><td colspan="2" style="text-align:center;background-color:#0066DF;color:white;font-weight:bold;padding:10px;"><a id="General_Information">General Information</a></td></tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">01: Date of notification</td>
+<td id="_TEMPLATE_id_01" style="color:#0066DF;"><ix:nonNumeric name="mica:DateOfNotificationForOtherTokenWhitePaper" contextRef="_ctx1" id="TEMPLATE_id_01" escape="false"><div style="color:#0066DF;"><p>2025-11-04</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">02: Statement in accordance with Article 6(3) of Regulation (EU) 2023/1114</td>
+<td id="_TEMPLATE_id_02" style="color:#0066DF;"><ix:nonNumeric name="mica:StatementEnsuringComplianceWithUnderlyingRegulation" contextRef="_ctx1" id="TEMPLATE_id_02" escape="false"><div style="color:#0066DF;"><p>This crypto-asset white paper has not been approved by any competent authority in any Member State of the European Union. The person seeking admission to trading of the crypto-asset is solely responsible for the content of this crypto-asset white paper.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">03: Compliance statement in accordance with Article 6(6) of Regulation (EU) 2023/1114</td>
+<td id="_TEMPLATE_id_03" style="color:#0066DF;"><ix:nonNumeric name="mica:ComplianceStatementAboutManagementConfirmation" contextRef="_ctx1" id="TEMPLATE_id_03" escape="false"><div style="color:#0066DF;"><p>This crypto-asset white paper complies with Title II of Regulation (EU) 2023/1114 of the European Parliament and of the Council and, to the best of the knowledge of the management body, the information presented in the crypto-asset white paper is fair, clear and not misleading and the crypto-asset white paper makes no omission likely to affect its import.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">04: Statement in accordance with Article 6(5), points (a), (b), (c), of Regulation (EU) 2023/1114</td>
+<td id="_TEMPLATE_id_04" style="color:#0066DF;"><ix:nonNumeric name="mica:StatementAboutPotentialRisks" contextRef="_ctx1" id="TEMPLATE_id_04" escape="false"><div style="color:#0066DF;"><p>The crypto-asset referred to in this crypto-asset white paper may lose its value in part or in full, may not always be transferable and may not be liquid.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">05: Statement in accordance with Article 6(5), point (d), of Regulation (EU) 2023/1114</td>
+<td id="_TEMPLATE_id_05" style="color:#0066DF;"><ix:nonNumeric name="mica:StatementAboutExchangeabilityForOtherToken" contextRef="_ctx1" id="TEMPLATE_id_05" escape="false"><div style="color:#0066DF;"><p>False.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">06: Statement in accordance with Article 6(5), points (e) and (f), of Regulation (EU) 2023/1114</td>
+<td id="_TEMPLATE_id_06" style="color:#0066DF;"><ix:nonNumeric name="mica:StatementAboutCompensationAndGuaranteeForOtherToken" contextRef="_ctx1" id="TEMPLATE_id_06" escape="false"><div style="color:#0066DF;"><p>The crypto-asset referred to in this white paper is not covered by the investor compensation schemes under Directive 97/9/EC of the European Parliament and of the Council or the deposit guarantee schemes under Directive 2014/49/EU of the European Parliament and of the Council.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr><td colspan="2" style="color:#FFF;height:20px;border-width:0;"/></tr>
+<tr><td colspan="2" style="text-align:center;background-color:#0066DF;color:white;font-weight:bold;padding:10px;"><a id="SUMMARY">SUMMARY</a></td></tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">07: Warning in accordance with Article 6(7), second subparagraph, of Regulation (EU) 2023/1114</td>
+<td id="_TEMPLATE_id_07" style="color:#0066DF;"><ix:nonNumeric name="mica:ClarificationRegardingOtherTokenOfferTerms" contextRef="_ctx1" id="TEMPLATE_id_07" escape="false"><div style="color:#0066DF;"><p>Warning</p>
+<p>This summary should be read as an introduction to the crypto-asset white paper. The prospective holder should base any decision to purchase this crypto-asset on the content of the crypto-asset white paper as a whole and not on the summary alone. The offer to the public of this crypto-asset does not constitute an offer or solicitation to purchase financial instruments and any such offer or solicitation can be made only by means of a prospectus or other offer documents pursuant to the applicable national law. This crypto-asset white paper does not constitute a prospectus as referred to in Regulation (EU) 2017/1129 of the European Parliament and of the Council or any other offer document pursuant to Union or national law.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">08: Characteristics of the crypto-asset</td>
+<td id="_TEMPLATE_id_08" style="color:#0066DF;"><ix:nonNumeric name="mica:DescriptionOfCharacteristicsOfOtherTokenExplanatory" contextRef="_ctx1" id="TEMPLATE_id_08" escape="false"><div style="color:#0066DF;"><p>The OMI token is primarily used within the VeVe digital collectibles ecosystem. The OMI token is designed to enhance user engagement in VeVe through features like the VeVe Master Collector Program, offering collectors unique ways to build and expand their digital collections.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">09: Further information about utility tokens</td>
+<td id="_TEMPLATE_id_09" style="color:#0066DF;"><ix:nonNumeric name="mica:DescriptionOfFurtherInformationAboutUtilityTokensExplanatory" contextRef="_ctx1" id="TEMPLATE_id_09" escape="false"><div style="color:#0066DF;"><p>Not applicable.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">10: Key information about the offer to the public or admission to trading</td>
+<td id="_TEMPLATE_id_10" style="color:#0066DF;"><ix:nonNumeric name="mica:OfferDescriptionExplanatory" contextRef="_ctx1" id="TEMPLATE_id_10" escape="false"><div style="color:#0066DF;"><p>This white paper has been prepared for the purposes of seeking admission to trading on the crypto-asset trading platform operated by Payward Europe Solutions Limited, an entity incorporated in Ireland.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr><td colspan="2" style="color:#FFF;height:20px;border-width:0;"/></tr>
+<tr><td colspan="2" style="text-align:center;background-color:#0066DF;color:white;font-weight:bold;padding:10px;"><a id="Part_A_-_Information_about_the_Offeror_or_the_Person_Seeking_Admission_to_Trading">Part A - Information about the Offeror or the Person Seeking Admission to Trading</a></td></tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">A.1: Name</td>
+<td id="_TEMPLATE_A.1" style="color:#0066DF;"><ix:nonNumeric name="mica:NameOfOtherTokenOfferor" contextRef="_ctx1" id="TEMPLATE_A.1" escape="false"><div style="color:#0066DF;"><p>ECOMI Technology PTE. LTD.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">A.2: Legal form</td>
+<td id="_TEMPLATE_A.2" style="color:#0066DF;"><ix:nonNumeric name="mica:OfferorsLegalForm" contextRef="_ctx1" id="TEMPLATE_A.2" escape="false"><div style="color:#0066DF;"><p>Exempt Private Company Limited by Shares.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">A.3: Registered address</td>
+<td id="_TEMPLATE_A.3" style="color:#0066DF;"><ix:nonNumeric name="mica:OfferorsRegisteredAddressDetailsAbstract" contextRef="_ctx1" id="TEMPLATE_A.3" escape="false"><div style="color:#0066DF;"><p>531A Upper Cross Street, #04-98, Hong Lim Complex, Singapore 051531</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">A.4: Head office</td>
+<td id="_TEMPLATE_A.4" style="color:#0066DF;"><ix:nonNumeric name="mica:OfferorsHeadOfficeDetailsAbstract" contextRef="_ctx1" id="TEMPLATE_A.4" escape="false"><div style="color:#0066DF;"><p>531A Upper Cross Street, #04-98, Hong Lim Complex, Singapore 051531</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">A.5: Registration date</td>
+<td id="_TEMPLATE_A.5" style="color:#0066DF;"><ix:nonNumeric name="mica:OfferorsRegistrationDate" contextRef="_ctx1" id="TEMPLATE_A.5" escape="false"><div style="color:#0066DF;"><p>2018-05-02</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">A.6: Legal entity identifier</td>
+<td id="_TEMPLATE_A.6" style="color:#0066DF;"><ix:nonNumeric name="mica:OfferorsLegalEntityIdentifier" contextRef="_ctx1" id="TEMPLATE_A.6" escape="false"><div style="color:#0066DF;"><p>9845003CBD4V52EF4C80</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">A.7: Another identifier required pursuant to applicable national law</td>
+<td id="_TEMPLATE_A.7" style="color:#0066DF;"><ix:nonNumeric name="mica:OfferorsAnotherIdentifierRequiredPursuantToApplicableNationalLaw" contextRef="_ctx1" id="TEMPLATE_A.7" escape="false"><div style="color:#0066DF;"><p>201814792N</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">A.8: Contact telephone number</td>
+<td id="_TEMPLATE_A.8" style="color:#0066DF;"><ix:nonNumeric name="mica:OfferorsContactTelephoneNumber" contextRef="_ctx1" id="TEMPLATE_A.8" escape="false"><div style="color:#0066DF;"><p>The contact number is +64222111111</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">A.9: E-mail address</td>
+<td id="_TEMPLATE_A.9" style="color:#0066DF;"><ix:nonNumeric name="mica:OfferorsEmailAddress" contextRef="_ctx1" id="TEMPLATE_A.9" escape="false"><div style="color:#0066DF;"><p>mica@ecomi.com</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">A.10: Response time (days)</td>
+<td id="_TEMPLATE_A.10" style="color:#0066DF;"><ix:nonNumeric name="mica:OfferorsResponseTimeDays" contextRef="_ctx1" id="TEMPLATE_A.10" escape="false"><div style="color:#0066DF;"><ol start="10">
+<li></li>
+</ol>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">A.11: Parent company</td>
+<td id="_TEMPLATE_A.11" style="color:#0066DF;"><ix:nonNumeric name="mica:IdentificationOfOfferorsParentCompany" contextRef="_ctx1" id="TEMPLATE_A.11" escape="false"><div style="color:#0066DF;"><p>There is no parent company.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">A.12: Members of management body</td>
+<td id="_TEMPLATE_A.12" style="color:#0066DF;"><ix:nonNumeric name="mica:MembersOfOfferorsManagementBodyForOtherTokenAbstract" contextRef="_ctx1" id="TEMPLATE_A.12" escape="false"><div style="color:#0066DF;"><p>Beneficial Owner &amp; Sole Director: David Shu-Han Yu.
+Suite E, Floor 4, 99 Customs Street West, Auckland Central, Auckland 1010, New Zealand</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">A.13: Business activity</td>
+<td id="_TEMPLATE_A.13" style="color:#0066DF;"><ix:nonNumeric name="mica:OfferorsBusinessActivityExplanatory" contextRef="_ctx1" id="TEMPLATE_A.13" escape="false"><div style="color:#0066DF;"><p>Business or Professional Activity of ECOMI Technology PTE. LTD.:
+Information Technology Consultancy, Development of other software and programming activities, Development and issuance of the OMI token and facilitation of integrations in partner platforms.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">A.14: Parent company business activity</td>
+<td id="_TEMPLATE_A.14" style="color:#0066DF;"><ix:nonNumeric name="mica:ParentCompanyBusinessActivityOfOfferorSideExplanatory" contextRef="_ctx1" id="TEMPLATE_A.14" escape="false"><div style="color:#0066DF;"><p>There is no parent company.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">A.15: Newly established</td>
+<td id="_TEMPLATE_A.15" style="color:#0066DF;"><ix:nonNumeric name="mica:NewlyEstablishedOfferorsIndicator" contextRef="_ctx1" id="TEMPLATE_A.15" escape="false"><div style="color:#0066DF;"><p>False.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">A.16: Financial condition for the past three years</td>
+<td id="_TEMPLATE_A.16" style="color:#0066DF;"><ix:nonNumeric name="mica:InformationAboutOfferorsFinancialConditionForPastThreeYearsExplanatory" contextRef="_ctx1" id="TEMPLATE_A.16" escape="false"><div style="color:#0066DF;"><p>Financial Condition:
+ECOMI Technology PTE. LTD., the issuer of the OMI utility token, is a privately held, pre-revenue entity. Its operations are primarily supported by a Business Development Fund, which, as of October 2025, holds approximately 16.3 billion OMI tokens (valued at around USD 5 million) in a Gnosis Safe multi-signature wallet. The company has no external debt and maintains conservative working capital practices, with no leverage. The initial capital raised was USD 4.49 million through a private ICO in 2019, at a project valuation of USD 44 million.</p>
+<p>Non-Financial Indicators:
+Key non-financial indicators include the ongoing integration and utility of OMI within the VeVe and StackR platforms, the security of treasury assets (secured via multi-signature wallets and hardware wallets).</p>
+<p>Summary of Capital Resources:
+ECOMI Technology PTE. LTD. does not generate revenue. Operations are funded through a Business Development Fund; a pool of OMI tokens used for exchange listings, providing trading liquidity, marketing, and partnerships. The Business Development Fund wallet is transparently disclosed and verifiable on Etherscan (0x38bA31f044C2B44B7A7eA97b307be1eC4500d26A) and serves as the primary indicator of the companies' financial health.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">A.17: Financial condition since registration</td>
+<td id="_TEMPLATE_A.17" style="color:#0066DF;"><ix:nonNumeric name="mica:InformationAboutOfferorsFinancialConditionSinceRegistrationExplanatory" contextRef="_ctx1" id="TEMPLATE_A.17" escape="false"><div style="color:#0066DF;"><p>Financial Condition:
+ECOMI Technology PTE. LTD., the issuer of the OMI token, is a privately held, pre-revenue entity. Its operations are primarily supported by a Business Development Fund, which, as of October 2025, holds approximately 16.3 billion OMI tokens (valued at around USD 5 million) in a Gnosis Safe multi-signature wallet. The company has no external debt and maintains conservative working capital practices, with no leverage. The initial capital raised was USD 4.49 million through a private ICO in 2019, at a project valuation of USD 44 million.</p>
+<p>Non-Financial Indicators:
+Key non-financial indicators include the ongoing integration and utility of OMI within the VeVe and StackR platforms, the security of treasury assets (secured via multi-signature wallets and hardware wallets).</p>
+<p>Summary of Capital Resources:
+ECOMI Technology PTE. LTD. does not generate revenue. Operations are funded through a Business Development Fund; a pool of OMI tokens used for exchange listings, providing trading liquidity, marketing, and partnerships. The Business Development Fund wallet is transparently disclosed and verifiable on Etherscan (0x38bA31f044C2B44B7A7eA97b307be1eC4500d26A) and serves as the primary indicator of the companies' financial health.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr><td colspan="2" style="color:#FFF;height:20px;border-width:0;"/></tr>
+<tr><td colspan="2" style="text-align:center;background-color:#0066DF;color:white;font-weight:bold;padding:10px;"><a id="Part_B_-_Information_about_the_Issuer,_If_Different_from_the_Offeror_or_Person_Seeking_Admission_to_Trading">Part B - Information about the Issuer, If Different from the Offeror or Person Seeking Admission to Trading</a></td></tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">B.1: Issuer different from offerror or person seeking admission to trading</td>
+<td id="_TEMPLATE_B.1" style="color:#0066DF;"><ix:nonNumeric name="mica:IssuerDifferentFromOfferrorOrPersonSeekingAdmissionToTrading" contextRef="_ctx1" id="TEMPLATE_B.1" escape="false"><div style="color:#0066DF;"><p>False.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">B.2: Name</td>
+<td id="_TEMPLATE_B.2" style="color:#0066DF;"><ix:nonNumeric name="mica:NameOfOtherTokenIssuer" contextRef="_ctx1" id="TEMPLATE_B.2" escape="false"><div style="color:#0066DF;"><p>Not applicable as the issuer is the person seeking admission to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">B.3: Legal form</td>
+<td id="_TEMPLATE_B.3" style="color:#0066DF;"><ix:nonNumeric name="mica:IssuersLegalForm" contextRef="_ctx1" id="TEMPLATE_B.3" escape="false"><div style="color:#0066DF;"><p>Not applicable as the issuer is the person seeking admission to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">B.4: Registered address</td>
+<td id="_TEMPLATE_B.4" style="color:#0066DF;"><ix:nonNumeric name="mica:IssuersRegisteredAddressDetailsAbstract" contextRef="_ctx1" id="TEMPLATE_B.4" escape="false"><div style="color:#0066DF;"><p>Not applicable as the issuer is the person seeking admission to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">B.5: Head office</td>
+<td id="_TEMPLATE_B.5" style="color:#0066DF;"><ix:nonNumeric name="mica:IssuersHeadOfficeDetailsAbstract" contextRef="_ctx1" id="TEMPLATE_B.5" escape="false"><div style="color:#0066DF;"><p>Not applicable as the issuer is the person seeking admission to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">B.6: Registration date</td>
+<td id="_TEMPLATE_B.6" style="color:#0066DF;"><ix:nonNumeric name="mica:IssuersRegistrationDate" contextRef="_ctx1" id="TEMPLATE_B.6" escape="false"><div style="color:#0066DF;"><p>Not applicable as the issuer is the person seeking admission to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">B.7: Legal entity identifier</td>
+<td id="_TEMPLATE_B.7" style="color:#0066DF;"><ix:nonNumeric name="mica:IssuersLegalEntityIdentifier" contextRef="_ctx1" id="TEMPLATE_B.7" escape="false"><div style="color:#0066DF;"><p>Not applicable as the issuer is the person seeking admission to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">B.8: Another identifier required pursuant to applicable national law</td>
+<td id="_TEMPLATE_B.8" style="color:#0066DF;"><ix:nonNumeric name="mica:IssuersAnotherIdentifierRequiredPursuantToApplicableNationalLaw" contextRef="_ctx1" id="TEMPLATE_B.8" escape="false"><div style="color:#0066DF;"><p>Not applicable as the issuer is the person seeking admission to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">B.9: Parent company</td>
+<td id="_TEMPLATE_B.9" style="color:#0066DF;"><ix:nonNumeric name="mica:IdentificationOfIssuersParentCompany" contextRef="_ctx1" id="TEMPLATE_B.9" escape="false"><div style="color:#0066DF;"><p>Not applicable as the issuer is the person seeking admission to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">B.10: Members of management body</td>
+<td id="_TEMPLATE_B.10" style="color:#0066DF;"><ix:nonNumeric name="mica:MembersOfIssuersManagementBodyForOtherTokenAbstract" contextRef="_ctx1" id="TEMPLATE_B.10" escape="false"><div style="color:#0066DF;"><p>Not applicable as the issuer is the person seeking admission to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">B.11: Business activity</td>
+<td id="_TEMPLATE_B.11" style="color:#0066DF;"><ix:nonNumeric name="mica:IssuersBusinessActivityExplanatory" contextRef="_ctx1" id="TEMPLATE_B.11" escape="false"><div style="color:#0066DF;"><p>Not applicable as the issuer is the person seeking admission to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">B.12: Parent company business activity</td>
+<td id="_TEMPLATE_B.12" style="color:#0066DF;"><ix:nonNumeric name="mica:ParentCompanyBusinessActivityOfIssuerSideExplanatory" contextRef="_ctx1" id="TEMPLATE_B.12" escape="false"><div style="color:#0066DF;"><p>Not applicable as the issuer is the person seeking admission to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr><td colspan="2" style="color:#FFF;height:20px;border-width:0;"/></tr>
+<tr><td colspan="2" style="text-align:center;background-color:#0066DF;color:white;font-weight:bold;padding:10px;"><a id="Part_C_-_Information_about_the_Operator_of_the_Trading_Platform">Part C - Information about the Operator of the Trading Platform</a></td></tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">C.1: Name</td>
+<td id="_TEMPLATE_C.1" style="color:#0066DF;"><ix:nonNumeric name="mica:NameOfOtherTokenOperator" contextRef="_ctx1" id="TEMPLATE_C.1" escape="false"><div style="color:#0066DF;"><p>Not applicable as offeror is not admitting crypto asset to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">C.2: Legal form</td>
+<td id="_TEMPLATE_C.2" style="color:#0066DF;"><ix:nonNumeric name="mica:OperatorsLegalForm" contextRef="_ctx1" id="TEMPLATE_C.2" escape="false"><div style="color:#0066DF;"><p>Not applicable as offeror is not admitting crypto asset to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">C.3: Registered address</td>
+<td id="_TEMPLATE_C.3" style="color:#0066DF;"><ix:nonNumeric name="mica:OperatorsRegisteredAddressDetailsAbstract" contextRef="_ctx1" id="TEMPLATE_C.3" escape="false"><div style="color:#0066DF;"><p>Not applicable as offeror is not admitting crypto asset to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">C.4: Head office</td>
+<td id="_TEMPLATE_C.4" style="color:#0066DF;"><ix:nonNumeric name="mica:OperatorsHeadOfficeDetailsAbstract" contextRef="_ctx1" id="TEMPLATE_C.4" escape="false"><div style="color:#0066DF;"><p>Not applicable as offeror is not admitting crypto asset to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">C.5: Registration date</td>
+<td id="_TEMPLATE_C.5" style="color:#0066DF;"><ix:nonNumeric name="mica:OperatorsRegistrationDate" contextRef="_ctx1" id="TEMPLATE_C.5" escape="false"><div style="color:#0066DF;"><p>Not applicable as offeror is not admitting crypto asset to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">C.6: Legal entity identifier</td>
+<td id="_TEMPLATE_C.6" style="color:#0066DF;"><ix:nonNumeric name="mica:OperatorsLegalEntityIdentifier" contextRef="_ctx1" id="TEMPLATE_C.6" escape="false"><div style="color:#0066DF;"><p>Not applicable as offeror is not admitting crypto asset to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">C.7: Another identifier required pursuant to applicable national law</td>
+<td id="_TEMPLATE_C.7" style="color:#0066DF;"><ix:nonNumeric name="mica:OperatorsAnotherIdentifierRequiredPursuantToApplicableNationalLaw" contextRef="_ctx1" id="TEMPLATE_C.7" escape="false"><div style="color:#0066DF;"><p>Not applicable as offeror is not admitting crypto asset to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">C.8: Parent company</td>
+<td id="_TEMPLATE_C.8" style="color:#0066DF;"><ix:nonNumeric name="mica:IdentificationOfOperatorsParentCompany" contextRef="_ctx1" id="TEMPLATE_C.8" escape="false"><div style="color:#0066DF;"><p>Not applicable as offeror is not admitting crypto asset to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">C.9: Reason for crypto-asset white paper preparation</td>
+<td id="_TEMPLATE_C.9" style="color:#0066DF;"><ix:nonNumeric name="mica:ReasonForCryptoassetWhitePaperPreparationExplanatory" contextRef="_ctx1" id="TEMPLATE_C.9" escape="false"><div style="color:#0066DF;"><p>Not applicable as offeror is not admitting crypto asset to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">C.10: Members of management body</td>
+<td id="_TEMPLATE_C.10" style="color:#0066DF;"><ix:nonNumeric name="mica:MembersOfOperatorsManagementBodyForOtherTokenAbstract" contextRef="_ctx1" id="TEMPLATE_C.10" escape="false"><div style="color:#0066DF;"><p>Not applicable as offeror is not admitting crypto asset to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">C.11: Operator business activity</td>
+<td id="_TEMPLATE_C.11" style="color:#0066DF;"><ix:nonNumeric name="mica:OperatorsBusinessActivityExplanatory" contextRef="_ctx1" id="TEMPLATE_C.11" escape="false"><div style="color:#0066DF;"><p>Not applicable as offeror is not admitting crypto asset to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">C.12: Parent company business activity</td>
+<td id="_TEMPLATE_C.12" style="color:#0066DF;"><ix:nonNumeric name="mica:ParentCompanyBusinessActivityOfOperatorSideExplanatory" contextRef="_ctx1" id="TEMPLATE_C.12" escape="false"><div style="color:#0066DF;"><p>Not applicable as offeror is not admitting crypto asset to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">C.13: Other persons drawing up the crypto-asset white paper according to Article 6(1), second subparagraph, of Regulation (EU) 2023/1114</td>
+<td id="_TEMPLATE_C.13" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherPersonsDrawingUpCryptoassetWhitePaperExplanatory" contextRef="_ctx1" id="TEMPLATE_C.13" escape="false"><div style="color:#0066DF;"><p>Not applicable as offeror is not admitting crypto asset to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">C.14: Reason for drawing the white paper by persons referred to in Article 6(1), second subparagraph, of Regulation (EU) 2023/1114</td>
+<td id="_TEMPLATE_C.14" style="color:#0066DF;"><ix:nonNumeric name="mica:ReasonForDrawingWhitePaperExplanatory" contextRef="_ctx1" id="TEMPLATE_C.14" escape="false"><div style="color:#0066DF;"><p>Not applicable as offeror is not admitting crypto asset to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr><td colspan="2" style="color:#FFF;height:20px;border-width:0;"/></tr>
+<tr><td colspan="2" style="text-align:center;background-color:#0066DF;color:white;font-weight:bold;padding:10px;"><a id="Part_D_-_Information_about_the_Crypto-Asset_Project">Part D - Information about the Crypto-Asset Project</a></td></tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">D.1: Crypto-asset project name</td>
+<td id="_TEMPLATE_D.1" style="color:#0066DF;"><ix:nonNumeric name="mica:NameOfOtherTokenProject" contextRef="_ctx1" id="TEMPLATE_D.1" escape="false"><div style="color:#0066DF;"><p>ECOMI</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">D.2: Crypto-asset name</td>
+<td id="_TEMPLATE_D.2" style="color:#0066DF;"><ix:nonNumeric name="mica:NameOfOtherToken" contextRef="_ctx1" id="TEMPLATE_D.2" escape="false"><div style="color:#0066DF;"><p>The primary crypto-asset being offered is the OMI token.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">D.3: Abbreviation</td>
+<td id="_TEMPLATE_D.3" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokenProjectAbbreviation" contextRef="_ctx1" id="TEMPLATE_D.3" escape="false"><div style="color:#0066DF;"><p>OMI</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">D.4: Crypto-asset project description</td>
+<td id="_TEMPLATE_D.4" style="color:#0066DF;"><ix:nonNumeric name="mica:DescriptionOfOtherTokenProjectExplanatory" contextRef="_ctx1" id="TEMPLATE_D.4" escape="false"><div style="color:#0066DF;"><p>Purpose and Goals:
+ECOMI's OMI token is central to the VeVe digital collectibles platform, which serves as a one-stop-shop for digital collectibles and digital comics through the VeVe app offered by ECOMI. The project aims to enhance the collecting experience by providing unique benefits and rewards to VeVe collectors, fostering a loyalty-driven environment through programs like the VeVe Master Collector Program (MCP).</p>
+<p>Key Features and Operation:</p>
+<ul>
+<li>OMI is an ERC-20 token (also available on other chains) that can be held in external wallets.</li>
+<li>According to VeVe's official announcement, from November 19, 2025, users will be able to convert OMI tokens to Gems via StackR, and these Gems can then be used to purchase digital collectibles on VeVe. Gems can also be purchased directly through the VeVe website using credit cards or through the mobile app using Apple or Google’s in-app payment services.</li>
+<li>The VeVe Master Collector Program (MCP) awards bonus MCP points to users holding or depositing OMI in a specified wallet, contributing to their collector rank and level; this is not staking, and OMI is not required to use VeVe.</li>
+</ul>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">D.5: Details of all natural or legal persons involved in implementation of crypto-asset project</td>
+<td id="_TEMPLATE_D.5" style="color:#0066DF;"><ix:nonNumeric name="mica:DetailsOfAllNaturalOrLegalPersonsInvolvedInImplementationOfOtherTokenProjectAbstract" contextRef="_ctx1" id="TEMPLATE_D.5" escape="false"><div style="color:#0066DF;"><p>Team:
+David Yu – Co-CEO, Founder
+Daniel Crothers – COO, Co-Founder</p>
+<p>Service Providers (as referenced in privacy policy):
+GetStream – Chat function provider
+Checkout.com – Payment provider
+Amazon Web Services – Data streaming and cloud services
+Cavrnus – Metaverse software provider
+Salesforce – Marketing automation and customer support
+Immutable – Blockchain layer 2 provider
+StackR – Digital collectible marketplace partner</p>
+<p>Business Entities/Addresses (where specified):
+ECOMI Technology Pte. Ltd. (Singapore)
+Orbis Blockchain Technologies Limited (New Zealand) – &quot;VeVe&quot;, company number 6545833</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">D.6: Utility token classification</td>
+<td id="_TEMPLATE_D.6" style="color:#0066DF;"><ix:nonNumeric name="mica:UtilityTokenClassificationForOtherTokenProjectIndicator" contextRef="_ctx1" id="TEMPLATE_D.6" escape="false"><div style="color:#0066DF;"><p>False.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">D.7: Key features of goods or services for utility token projects</td>
+<td id="_TEMPLATE_D.7" style="color:#0066DF;"><ix:nonNumeric name="mica:KeyFeaturesOfGoodsOrServicesForUtilityTokenProjectsExplanatory" contextRef="_ctx1" id="TEMPLATE_D.7" escape="false"><div style="color:#0066DF;"><p>Not applicable as OMI is not a utility token as defined under MiCA.</p>
+<p>OMI is not classified as a utility token under MiCAR. Under the regulation, a utility token is defined as a type of crypto-asset that is solely intended to provide access to a good or service supplied by its issuer. OMI does not possess these specific characteristics. Instead, OMI is classified as a general crypto-asset under Title II of MiCAR, falling outside the specific categories of e-money tokens, asset-referenced tokens, and utility tokens. OMI represents a digital value or right that can be transferred and stored electronically using distributed ledger technology, but it does not function exclusively as a mechanism for accessing goods or services from the issuer, which is the fundamental requirement for utility token classification under the MiCA framework.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">D.8: Plans for the token</td>
+<td id="_TEMPLATE_D.8" style="color:#0066DF;"><ix:nonNumeric name="mica:PlansForTokenAbstract" contextRef="_ctx1" id="TEMPLATE_D.8" escape="false"><div style="color:#0066DF;"><p>Achievements:
+A major technical achievement was the migration of the OMI token from GoChain to Ethereum, which began in January 2022.</p>
+<p>The VeVe Master Collector Program (MCP) was launched, with OMI Reward Tiers introduced in August 2023. MCP Season One ran from January 1 to March 31, 2024, and Season Two from April 1 to June 30, 2024, rewarding users for holding OMI.</p>
+<p>Timeline of Key Milestones:</p>
+<ul>
+<li>January 28, 2022: OMI token migration from GoChain to Ethereum begins</li>
+<li>August 2023: MCP OMI Reward Tiers announced</li>
+<li>January–March 2024: MCP Season One</li>
+<li>April–June 2024: MCP Season Two</li>
+<li>May 8, 2024: OMI token migration to Base</li>
+<li>August 1, 2025: Deadline for OMI migration to Base for continued rewards</li>
+</ul>
+<p>Future Goals:</p>
+<ul>
+<li>November 19, 2025: Launch of OMI-to-Gems conversion via StackR, allowing OMI holders to purchase Gems and, in turn, VeVe collectibles directly.</li>
+<li>Continued development of third-party OMI utilities, new partnerships, and additional licensed content for the VeVe platform.</li>
+<li>VeVe is upgrading the MCP daily bonus from dynamic to fixed rewards for holding OMI in your StackR self-custody wallet. The previous dynamic model adjusted daily bonus points based on relative user participation, meaning more holders at a given level could reduce your rewards despite holding the same amount. The new fixed model will guarantee consistent rewards regardless of how many users participate. Maximum eligibility remains at 10,000,000 OMI, earning 1,500 daily bonus MCP points. The fixed approach also allows VeVe to adjust eligibility tiers and reward amounts as the ecosystem evolves. This change has just gone live at the time of writing.</li>
+</ul>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">D.9: Resource allocation</td>
+<td id="_TEMPLATE_D.9" style="color:#0066DF;"><ix:nonNumeric name="mica:ResourceAllocationExplanatory" contextRef="_ctx1" id="TEMPLATE_D.9" escape="false"><div style="color:#0066DF;"><p>Capital Resources:
+ECOMI Technology PTE. LTD. does not generate revenue. Operations are funded through a Business Development Fund; a pool of OMI tokens used for exchange listings, providing trading liquidity, marketing, and partnerships. The Business Development Fund wallet is transparently disclosed and verifiable on Etherscan (0x38bA31f044C2B44B7A7eA97b307be1eC4500d26A) and serves as the primary indicator of the companies' financial health. ECOMI conducted a private ICO in 2019 that was not available to US residents. The offering raised $4.49 million at a $44 million project valuation.</p>
+<p>Human Resources:
+David Shu-Han Yu - CEO of Ecomi.</p>
+<p>Technology Resources:
+ECOMI has allocated a range of technological resources to the OMI project and its associated VeVe platform. The OMI token was originally launched on GoChain in 2019 and migrated to Ethereum as an ERC-20 token in early 2022. For use within the VeVe digital collectibles ecosystem, OMI operates on Immutable X (IMX), an Ethereum Layer 2 scaling solution, which enables gasless NFT transactions and seamless user experience. The migration and integration utilize Immutable X’s APIs and SDKs, allowing VeVe to mint NFTs and facilitate OMI transactions efficiently. The VeVe app and marketplace are built to leverage Immutable X’s proprietary technology, which provides instant, gas-free trades and interoperability with Ethereum Layer 1. The VeVe API and SDK are integrated with Immutable X to bring these functionalities directly into the app.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">D.10: Planned use of collected funds or other tokens</td>
+<td id="_TEMPLATE_D.10" style="color:#0066DF;"><ix:nonNumeric name="mica:PlannedUseOfCollectedFundsOrOtherTokensExplanatory" contextRef="_ctx1" id="TEMPLATE_D.10" escape="false"><div style="color:#0066DF;"><p>Ecosystem integrations, exchange listings, infrastructure, security, compliance, and general operations. The issuer maintains conservative working-capital practices and no leverage.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr><td colspan="2" style="color:#FFF;height:20px;border-width:0;"/></tr>
+<tr><td colspan="2" style="text-align:center;background-color:#0066DF;color:white;font-weight:bold;padding:10px;"><a id="Part_E_-_Information_about_the_Offer_to_the_Public_of_Crypto-Assets_or_their_Admission_to_Trading">Part E - Information about the Offer to the Public of Crypto-Assets or their Admission to Trading</a></td></tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.1: Public offering or admission to trading</td>
+<td id="_TEMPLATE_E.1" style="color:#0066DF;"><ix:nonNumeric name="mica:PublicOfferingOrAdmissionToTrading" contextRef="_ctx1" id="TEMPLATE_E.1" escape="false"><div style="color:#0066DF;"><p>ATTR</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.2: Reasons for public offer or admission to trading</td>
+<td id="_TEMPLATE_E.2" style="color:#0066DF;"><ix:nonNumeric name="mica:ReasonsForPublicOfferOrAdmissionToTradingExplanatory" contextRef="_ctx1" id="TEMPLATE_E.2" escape="false"><div style="color:#0066DF;"><p>Enable EU market access for OMI holders.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.3: Fundraising target</td>
+<td id="_TEMPLATE_E.3" style="color:#0066DF;"><ix:nonNumeric name="mica:FundraisingTargetDetailsAbstract" contextRef="_ctx1" id="TEMPLATE_E.3" escape="false"><div style="color:#0066DF;"><p>Not applicable. This whitepaper is published solely in relation to the admission to trading of the OMI token and does not relate to any public offering.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.4: Minimum subscription goals</td>
+<td id="_TEMPLATE_E.4" style="color:#0066DF;"><ix:nonNumeric name="mica:MinimumSubscriptionGoalsDetailsAbstract" contextRef="_ctx1" id="TEMPLATE_E.4" escape="false"><div style="color:#0066DF;"><p>There are no minimum target subscription goals.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.5: Maximum subscription goals</td>
+<td id="_TEMPLATE_E.5" style="color:#0066DF;"><ix:nonNumeric name="mica:MaximumSubscriptionGoalsDetailsAbstract" contextRef="_ctx1" id="TEMPLATE_E.5" escape="false"><div style="color:#0066DF;"><p>There are no maximum target subscription goals.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.6: Oversubscription acceptance</td>
+<td id="_TEMPLATE_E.6" style="color:#0066DF;"><ix:nonNumeric name="mica:OversubscriptionAcceptanceIndicator" contextRef="_ctx1" id="TEMPLATE_E.6" escape="false"><div style="color:#0066DF;"><p>There are no oversubscriptions accepted.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.7: Oversubscription allocation</td>
+<td id="_TEMPLATE_E.7" style="color:#0066DF;"><ix:nonNumeric name="mica:OversubscriptionAllocationExplanatory" contextRef="_ctx1" id="TEMPLATE_E.7" escape="false"><div style="color:#0066DF;"><p>There are no oversubscriptions accepted.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.8: Issue price</td>
+<td id="_TEMPLATE_E.8" style="color:#0066DF;"><ix:nonNumeric name="mica:IssuePrice" contextRef="_ctx1" id="TEMPLATE_E.8" escape="false"><div style="color:#0066DF;"><p>There is no issue price, as the crypto asset is already in issuance.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.9: Official currency determining issue price</td>
+<td id="_TEMPLATE_E.9" style="color:#0066DF;"><ix:nonNumeric name="mica:OfficialCurrencyDeterminingIssuePrice" contextRef="_ctx1" id="TEMPLATE_E.9" escape="false"><div style="color:#0066DF;"><p>There is no official currency as the crypto asset is already in issuance.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.10: Subscription fee</td>
+<td id="_TEMPLATE_E.10" style="color:#0066DF;"><ix:nonNumeric name="mica:SubscriptionFeeDetailsAbstract" contextRef="_ctx1" id="TEMPLATE_E.10" escape="false"><div style="color:#0066DF;"><p>There are no subscription fees.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.11: Offer price determination method</td>
+<td id="_TEMPLATE_E.11" style="color:#0066DF;"><ix:nonNumeric name="mica:OfferPriceDeterminationMethodExplanatory" contextRef="_ctx1" id="TEMPLATE_E.11" escape="false"><div style="color:#0066DF;"><p>Not applicable, as this whitepaper is published in relation to the admission to trading of the OMI token and does not relate to any public offering.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.12: Total number of offered or traded other tokens</td>
+<td id="_TEMPLATE_E.12" style="color:#0066DF;"><ix:nonNumeric name="mica:TotalNumberOfOfferedOrTradedOtherTokens" contextRef="_ctx1" id="TEMPLATE_E.12" escape="false"><div style="color:#0066DF;"><p>310882499574</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.13: Targeted holders</td>
+<td id="_TEMPLATE_E.13" style="color:#0066DF;"><ix:nonNumeric name="mica:TargetedHoldersForOtherToken" contextRef="_ctx1" id="TEMPLATE_E.13" escape="false"><div style="color:#0066DF;"><p>All.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.14: Holder restrictions</td>
+<td id="_TEMPLATE_E.14" style="color:#0066DF;"><ix:nonNumeric name="mica:HolderRestrictionsExplanatory" contextRef="_ctx1" id="TEMPLATE_E.14" escape="false"><div style="color:#0066DF;"><p>There are no restrictions.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.15: Reimbursement notice</td>
+<td id="_TEMPLATE_E.15" style="color:#0066DF;"><ix:nonNumeric name="mica:ReimbursementNotice" contextRef="_ctx1" id="TEMPLATE_E.15" escape="false"><div style="color:#0066DF;"><p>No withdrawal or reimbursement rights apply under Article 13 of MiCAR as the SUP tokens will be acquired only after admission to trading on a crypto-asset trading platform.  Accordingly, Article 13(4) MiCAR excludes the right of withdrawal in such cases.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.16: Refund mechanism</td>
+<td id="_TEMPLATE_E.16" style="color:#0066DF;"><ix:nonNumeric name="mica:RefundMechanismExplanatory" contextRef="_ctx1" id="TEMPLATE_E.16" escape="false"><div style="color:#0066DF;"><p>There is no refund mechanism.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.17: Refund timeline</td>
+<td id="_TEMPLATE_E.17" style="color:#0066DF;"><ix:nonNumeric name="mica:RefundTimelineExplanatory" contextRef="_ctx1" id="TEMPLATE_E.17" escape="false"><div style="color:#0066DF;"><p>There is no refund mechanism.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.18: Offer phases</td>
+<td id="_TEMPLATE_E.18" style="color:#0066DF;"><ix:nonNumeric name="mica:DescriptionOfOtherTokenProjectPhasesExplanatory" contextRef="_ctx1" id="TEMPLATE_E.18" escape="false"><div style="color:#0066DF;"><p>There are no phases.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.19: Early purchase discount</td>
+<td id="_TEMPLATE_E.19" style="color:#0066DF;"><ix:nonNumeric name="mica:DisclosureOfEarlyPurchaseDiscountExplanatory" contextRef="_ctx1" id="TEMPLATE_E.19" escape="false"><div style="color:#0066DF;"><p>There are no discounts.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.20: Time-limited offer</td>
+<td id="_TEMPLATE_E.20" style="color:#0066DF;"><ix:nonNumeric name="mica:TimelimitedOfferIndicator" contextRef="_ctx1" id="TEMPLATE_E.20" escape="false"><div style="color:#0066DF;"><p>Not applicable.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.21: Subscription period beginning</td>
+<td id="_TEMPLATE_E.21" style="color:#0066DF;"><ix:nonNumeric name="mica:SubscriptionPeriodBeginning" contextRef="_ctx1" id="TEMPLATE_E.21" escape="false"><div style="color:#0066DF;"><p>The offer is not time limited.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.22: Subscription period end</td>
+<td id="_TEMPLATE_E.22" style="color:#0066DF;"><ix:nonNumeric name="mica:SubscriptionPeriodEnd" contextRef="_ctx1" id="TEMPLATE_E.22" escape="false"><div style="color:#0066DF;"><p>The offer is not time limited.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.23: Safeguarding arrangements for offered funds or other tokens</td>
+<td id="_TEMPLATE_E.23" style="color:#0066DF;"><ix:nonNumeric name="mica:SafeguardingArrangementsForOfferedFundsOrOtherTokensExplanatory" contextRef="_ctx1" id="TEMPLATE_E.23" escape="false"><div style="color:#0066DF;"><p>The offer is not time limited.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.24: Payment methods for other token purchase</td>
+<td id="_TEMPLATE_E.24" style="color:#0066DF;"><ix:nonNumeric name="mica:PaymentMethodsForOtherTokenPurchaseExplanatory" contextRef="_ctx1" id="TEMPLATE_E.24" escape="false"><div style="color:#0066DF;"><p>Fiat or other crypto assets.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.25: Value transfer methods for reimbursement</td>
+<td id="_TEMPLATE_E.25" style="color:#0066DF;"><ix:nonNumeric name="mica:ValueTransferMethodsForReimbursementExplanatory" contextRef="_ctx1" id="TEMPLATE_E.25" escape="false"><div style="color:#0066DF;"><p>There are no reimbursement rights.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.26: Right of withdrawal</td>
+<td id="_TEMPLATE_E.26" style="color:#0066DF;"><ix:nonNumeric name="mica:RighOfWithdrawalExplanatory" contextRef="_ctx1" id="TEMPLATE_E.26" escape="false"><div style="color:#0066DF;"><p>There is no right of withdrawal.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.27: Transfer of purchased other tokens</td>
+<td id="_TEMPLATE_E.27" style="color:#0066DF;"><ix:nonNumeric name="mica:TransferOfPurchasedOtherTokensExplanatory" contextRef="_ctx1" id="TEMPLATE_E.27" escape="false"><div style="color:#0066DF;"><p>Via crypto-asset trading platforms on which OMI is admitted to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.28: Transfer time schedule</td>
+<td id="_TEMPLATE_E.28" style="color:#0066DF;"><ix:nonNumeric name="mica:TransferTimeSchedule" contextRef="_ctx1" id="TEMPLATE_E.28" escape="false"><div style="color:#0066DF;"><p>There is no relevant time schedule.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.29: Purchaser&#39;s technical requirements</td>
+<td id="_TEMPLATE_E.29" style="color:#0066DF;"><ix:nonNumeric name="mica:PurchasersTechnicalRequirementsExplanatory" contextRef="_ctx1" id="TEMPLATE_E.29" escape="false"><div style="color:#0066DF;"><p>There are no technical requirements.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.30: Other token service provider (CASP) name</td>
+<td id="_TEMPLATE_E.30" style="color:#0066DF;"><ix:nonNumeric name="mica:NameOfOtherTokenServiceProvider" contextRef="_ctx1" id="TEMPLATE_E.30" escape="false"><div style="color:#0066DF;"><p>Payward Global Solutions LTD</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.31: CASP identifier</td>
+<td id="_TEMPLATE_E.31" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokenServiceProviderIdentifier" contextRef="_ctx1" id="TEMPLATE_E.31" escape="false"><div style="color:#0066DF;"><p>9845003D98SCC2851458</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.32: Placement form</td>
+<td id="_TEMPLATE_E.32" style="color:#0066DF;"><ix:nonNumeric name="mica:PlacementFormForOtherToken" contextRef="_ctx1" id="TEMPLATE_E.32" escape="false"><div style="color:#0066DF;"><p>NTAV</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.33: Trading platforms name</td>
+<td id="_TEMPLATE_E.33" style="color:#0066DF;"><ix:nonNumeric name="mica:TradingPlatformsName" contextRef="_ctx1" id="TEMPLATE_E.33" escape="false"><div style="color:#0066DF;"><p>Kraken</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.34: Trading platforms market identifier code (MIC)</td>
+<td id="_TEMPLATE_E.34" style="color:#0066DF;"><ix:nonNumeric name="mica:TradingPlatformsIdentifierCode" contextRef="_ctx1" id="TEMPLATE_E.34" escape="false"><div style="color:#0066DF;"><p>PGSL</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.35: Trading platforms access</td>
+<td id="_TEMPLATE_E.35" style="color:#0066DF;"><ix:nonNumeric name="mica:TradingPlatformsAccessExplanatory" contextRef="_ctx1" id="TEMPLATE_E.35" escape="false"><div style="color:#0066DF;"><p>Online via the platform.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.36: Involved costs</td>
+<td id="_TEMPLATE_E.36" style="color:#0066DF;"><ix:nonNumeric name="mica:DescriptionOfInvolvedCostsExplanatory" contextRef="_ctx1" id="TEMPLATE_E.36" escape="false"><div style="color:#0066DF;"><p>Not applicable.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.37: Offer expenses</td>
+<td id="_TEMPLATE_E.37" style="color:#0066DF;"><ix:nonNumeric name="mica:DescriptionOfOfferExpensesExplanatory" contextRef="_ctx1" id="TEMPLATE_E.37" escape="false"><div style="color:#0066DF;"><p>Not applicable, as this whitepaper is published in relation to the admission to trading of the OMI token and does not relate to any public offering.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.38: Conflicts of interest</td>
+<td id="_TEMPLATE_E.38" style="color:#0066DF;"><ix:nonNumeric name="mica:InformationAboutPotentialConflictsOfInterestForOtherTokenExplanatory" contextRef="_ctx1" id="TEMPLATE_E.38" escape="false"><div style="color:#0066DF;"><p>The offeror is not aware of any potential conflict of interest of the persons involved in its admission to trading.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.39: Applicable law</td>
+<td id="_TEMPLATE_E.39" style="color:#0066DF;"><ix:nonNumeric name="mica:ApplicableLawForOtherTokenOfferExplanatory" contextRef="_ctx1" id="TEMPLATE_E.39" escape="false"><div style="color:#0066DF;"><p>Singapore.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">E.40: Competent court</td>
+<td id="_TEMPLATE_E.40" style="color:#0066DF;"><ix:nonNumeric name="mica:CompetentCourtForOtherTokenOfferExplanatory" contextRef="_ctx1" id="TEMPLATE_E.40" escape="false"><div style="color:#0066DF;"><p>Singapore.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr><td colspan="2" style="color:#FFF;height:20px;border-width:0;"/></tr>
+<tr><td colspan="2" style="text-align:center;background-color:#0066DF;color:white;font-weight:bold;padding:10px;"><a id="Part_F_-_Information_about_the_Crypto-Assets">Part F - Information about the Crypto-Assets</a></td></tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.1: Other token type</td>
+<td id="_TEMPLATE_F.1" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokenType" contextRef="_ctx1" id="TEMPLATE_F.1" escape="false"><div style="color:#0066DF;"><p>The Token is a crypto-asset under Regulation (EU) 2023/1114 of the European Parliament and of the Council which is not an e-money token, an asset-referenced token or a utility token, each as defined under such Regulation.</p>
+<p>OMI is not classified as a utility token under MiCAR. Under the regulation, a utility token is defined as a type of crypto-asset that is solely intended to provide access to a good or service supplied by its issuer. OMI does not possess these specific characteristics. Instead, OMI is classified as a general crypto-asset under Title II of MiCAR, falling outside the specific categories of e-money tokens, asset-referenced tokens, and utility tokens. OMI represents a digital value or right that can be transferred and stored electronically using distributed ledger technology, but it does not function exclusively as a mechanism for accessing goods or services from the issuer, which is the fundamental requirement for utility token classification under the MiCA framework.</p>
+<p>The OMI token is intended for use within the VeVe digital collectibles platform, where holding or depositing OMI in a specified wallet allows users to earn additional Master Collector Program (MCP) points and, when available, redeem OMI for in-app tickets or perks as part of the platform's loyalty program.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.2: Other token functionality</td>
+<td id="_TEMPLATE_F.2" style="color:#0066DF;"><ix:nonNumeric name="mica:InformationAboutOtherTokenFunctionalityExplanatory" contextRef="_ctx1" id="TEMPLATE_F.2" escape="false"><div style="color:#0066DF;"><p>Its primary functionalities and utilities for holders include:</p>
+<ul>
+<li>In-App Perks and Rewards: Holding or using OMI grants VeVe collectors various perks, rewards, and advantages within the VeVe app. These include exclusive items, benefits, and the ability to boost Master Collector Program (MCP) Points, which can be spent on features and benefits throughout the app.</li>
+<li>MCP Tickets and Points: OMI holders can acquire Bronze MCP Tickets by holding OMI. These tickets can be redeemed for MCP Points, which help users progress in the Master Collector Program and access additional in-app features. Future updates will allow direct swapping of OMI for Bronze Tickets, and tickets can be transferred between users.</li>
+<li>Token Burn Mechanism: When OMI is spent on certain features (such as acquiring Bronze MCP Tickets), those tokens are permanently removed from the circulating supply, contributing to a deflationary mechanism.</li>
+<li>Third-Party Perks: Some partner applications, such as Vemate Premium, offer access to premium features simply by holding OMI tokens in a qualifying address.</li>
+</ul>
+<p>Future integrations may broaden functionality but do not alter existing token holder rights. Any material change will be reflected in an updated whitepaper.</p>
+<p>There is no public evidence in the provided context that OMI tokens confer governance rights or are used directly for purchasing collectibles. The main utilities are in-app perks, MCP progression, and exclusive access within the VeVe ecosystem.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.3: Planned application of functionalities</td>
+<td id="_TEMPLATE_F.3" style="color:#0066DF;"><ix:nonNumeric name="mica:InformationAboutPlannedApplicationOfFunctionalitiesExplanatory" contextRef="_ctx1" id="TEMPLATE_F.3" escape="false"><div style="color:#0066DF;"><p>According to VeVe's official announcement, from November 19, 2025, users will be able to convert OMI tokens to Gems via StackR, and these Gems can then be used to purchase digital collectibles on VeVe. Gems can also be purchased directly through the VeVe website using credit cards or through the mobile app using Apple or Google’s in-app payment services. This functionality goes live at 12 AM PT on 2025-11-19.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.4: Type of crypto-asset white paper</td>
+<td id="_TEMPLATE_F.4" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokenTypeOfWhitePaper" contextRef="_ctx1" id="TEMPLATE_F.4" escape="false"><div style="color:#0066DF;"><p>OTHR</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.5: Type of submission</td>
+<td id="_TEMPLATE_F.5" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokenTypeOfSubmission" contextRef="_ctx1" id="TEMPLATE_F.5" escape="false"><div style="color:#0066DF;"><p>NEWT</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.6: Other token characteristics</td>
+<td id="_TEMPLATE_F.6" style="color:#0066DF;"><ix:nonNumeric name="mica:DescriptionOfOtherTokenCharacteristicsExplanatory" contextRef="_ctx1" id="TEMPLATE_F.6" escape="false"><div style="color:#0066DF;"><p>OMI is a token classified for use within the VeVe digital collectibles ecosystem, operating as an ERC-20 standard token on Ethereum, with additional contract deployments on Base and Energi. The token originated on GoChain in 2019 and was fully migrated to Ethereum in early 2022, with a total supply cap of 750 billion OMI. Of this, approximately 311 billion tokens can ever enter active circulation, while the remainder is either held in reserve, permanently burnt (over 111 billion), or stranded on GoChain and inaccessible (about 98 billion). OMI tokens are subject to burn mechanisms tied to platform activity, such as NFT sales and certain utility functions, which permanently remove tokens from supply. All vesting and unlocks were completed by April 2022, and no new tokens will be created. The token's compliance posture includes a KYC requirement during its ICO and a Singapore country of origin. OMI is not a governance or stablecoin token, and its primary operation is as a transferable ERC-20 asset with supply-reducing burns but no protocol-level staking or governance features.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.7: Commercial name or trading name</td>
+<td id="_TEMPLATE_F.7" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokenIssuersCommercialOrTradingName" contextRef="_ctx1" id="TEMPLATE_F.7" escape="false"><div style="color:#0066DF;"><p>ECOMI Technology PTE. LTD.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.8: Website of the issuer</td>
+<td id="_TEMPLATE_F.8" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokenIssuersWebsite" contextRef="_ctx1" id="TEMPLATE_F.8" escape="false"><div style="color:#0066DF;"><p>OMI is the native token of the VeVe digital collectibles ecosystem, the website can be found here: https://www.veve.me/en.  More information specific to the token can be found on their Notion: https://ecomi.notion.site/.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.9: Starting date of offer to the public or admission to trading</td>
+<td id="_TEMPLATE_F.9" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokenOfferStartingDate" contextRef="_ctx1" id="TEMPLATE_F.9" escape="false"><div style="color:#0066DF;"><p>2025-12-02</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.10: Publication date</td>
+<td id="_TEMPLATE_F.10" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokenWhitePaperPublicationDate" contextRef="_ctx1" id="TEMPLATE_F.10" escape="false"><div style="color:#0066DF;"><p>2025-12-02</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.11: Any other services provided by the issuer</td>
+<td id="_TEMPLATE_F.11" style="color:#0066DF;"><ix:nonNumeric name="mica:InformationAboutOtherServicesProvidedByOtherTokenIssuerExplanatory" contextRef="_ctx1" id="TEMPLATE_F.11" escape="false"><div style="color:#0066DF;"><p>Nothing other than already stated in the whitepaper.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.12: Language or languages of white paper</td>
+<td id="_TEMPLATE_F.12" style="color:#0066DF;"><ix:nonNumeric name="mica:InformationAboutLanguagesUsedInOtherTokenWhitePaper" contextRef="_ctx1" id="TEMPLATE_F.12" escape="false"><div style="color:#0066DF;"><p>English.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.13: Digital token identifier code used to uniquely identify the crypto-asset or each of the several crypto assets to which the white paper relates, where available</td>
+<td id="_TEMPLATE_F.13" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokenDigitalTokenIdentifierCode" contextRef="_ctx1" id="TEMPLATE_F.13" escape="false"><div style="color:#0066DF;"><p>3JJ63T2TQ</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.14: Functionally fungible group digital token identifier, where available</td>
+<td id="_TEMPLATE_F.14" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokenFunctionallyFungibleGroupDigitalTokenIdentifier" contextRef="_ctx1" id="TEMPLATE_F.14" escape="false"><div style="color:#0066DF;"><p>3JJ63T2TQ</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.15: Voluntary data flag</td>
+<td id="_TEMPLATE_F.15" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokenVoluntaryDataFlagIndicator" contextRef="_ctx1" id="TEMPLATE_F.15" escape="false"><div style="color:#0066DF;"><p>False.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.16: Personal data flag</td>
+<td id="_TEMPLATE_F.16" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokenPersonalDataFlagIndicator" contextRef="_ctx1" id="TEMPLATE_F.16" escape="false"><div style="color:#0066DF;"><p>True.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.17: LEI eligibility</td>
+<td id="_TEMPLATE_F.17" style="color:#0066DF;"><ix:nonNumeric name="mica:LEIEligibilityIndicatorForOtherToken" contextRef="_ctx1" id="TEMPLATE_F.17" escape="false"><div style="color:#0066DF;"><p>True.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.18: Home member state</td>
+<td id="_TEMPLATE_F.18" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokenHomeMemberState" contextRef="_ctx1" id="TEMPLATE_F.18" escape="false"><div style="color:#0066DF;"><p>Ireland.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">F.19: Host member states</td>
+<td id="_TEMPLATE_F.19" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokenHostMemberStates" contextRef="_ctx1" id="TEMPLATE_F.19" escape="false"><div style="color:#0066DF;"><p>Austria, Belgium, Bulgaria, Croatia, Cyprus, Czech Republic, Denmark, Estonia, Finland, France, Germany, Greece, Hungary, Iceland, Italy, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Netherlands, Norway, Poland, Portugal, Romania, Slovakia, Slovenia, Spain, Sweden.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr><td colspan="2" style="color:#FFF;height:20px;border-width:0;"/></tr>
+<tr><td colspan="2" style="text-align:center;background-color:#0066DF;color:white;font-weight:bold;padding:10px;"><a id="Part_G_-_Information_on_the_Rights_and_Obligations_attached_to_the_Crypto-Assets">Part G - Information on the Rights and Obligations attached to the Crypto-Assets</a></td></tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.1: Purchaser rights and obligations</td>
+<td id="_TEMPLATE_G.1" style="color:#0066DF;"><ix:nonNumeric name="mica:InformationAboutPurchaserRightsAndObligationsExplanatory" contextRef="_ctx1" id="TEMPLATE_G.1" escape="false"><div style="color:#0066DF;"><p>Ownership and Economic Rights:
+Holding OMI tokens does not provide any ownership, profit participation, or claim to the assets, revenues, or intellectual property of ECOMI Technology Pte. Ltd. or VeVe. The value of OMI is highly volatile, and there is no guarantee of future value, liquidity, or the ability to buy or sell the token. OMI tokens tokens are now held in self custody wallets for rewards and are not held on the VeVe app. According to VeVe's official announcement, from November 19, 2025, users will be able to convert OMI tokens to Gems via StackR, and these Gems can then be used to purchase digital collectibles on VeVe. Gems can also be purchased directly through the VeVe website using credit cards or through the mobile app using Apple or Google’s in-app payment services.</p>
+<p>Access and Utility:
+OMI tokens, when held or deposited in a specified wallet, enable holders to earn daily Master Collector Program (MCP) points, which contribute to a user's rank and level within the VeVe ecosystem. These points may be spendable for in-app features and benefits as they become available. Additional token utilities may be introduced in the future, but there is no guarantee of access to any specific goods or services as defined under MiCA.</p>
+<p>Voting and Governance:
+There is no evidence that OMI tokens confer any voting rights or governance powers over ECOMI Technology Pte. Ltd., VeVe, or the development of the platform.</p>
+<p>Holder Obligations:
+Holders must comply with eligibility requirements, including not being subject to sanctions or residing in restricted jurisdictions, and may be required to provide KYC or other information for compliance purposes. Users must follow lawful use policies, maintain account security, and remain active in the VeVe app to continue earning MCP points. ECOMI Technology Pte. Ltd. may change, suspend, or discontinue access to OMI-related features at its discretion.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.2: Exercise of rights and obligations</td>
+<td id="_TEMPLATE_G.2" style="color:#0066DF;"><ix:nonNumeric name="mica:ExerciseOfRightsAndObligationExplanatory" contextRef="_ctx1" id="TEMPLATE_G.2" escape="false"><div style="color:#0066DF;"><p>Rights and Utilities for OMI Token Holders:
+OMI token holders can exercise their rights primarily within the VeVe digital collectibles ecosystem. The main utilities and requirements are as follows:</p>
+<ol>
+<li>Accessing Services and Utilizing OMI in VeVe:</li>
+</ol>
+<ul>
+<li>OMI tokens are intended for use in the VeVe app, where holders can use them to augment their Master Collector Program (MCP) points, earn bonus points for OMI transactions, make in-app purchases, and participate in OMI-only markets as these features are progressively released.</li>
+<li>Additional benefits include fee reductions and access to exclusive features, items, and advantages within the app.</li>
+<li>OMI tokens tokens are now held in self custody wallets for rewards and are not held on the VeVe app.</li>
+</ul>
+<ol start="2">
+<li>Steps to Exercise Rights (e.g., MCP Points, Rewards):</li>
+</ol>
+<ul>
+<li>Create a VeVe Account: Register on the VeVe app to access the platform and its features.</li>
+<li>Remain Active: To earn daily MCP points through OMI Reward Tiers, users must be active in the VeVe app (e.g., logging in, interacting, or transacting at least once per week). Inactivity for seven days or more suspends point accrual.</li>
+<li>OMI Reward Tiers: During &quot;Season Zero,&quot; up to 10 million OMI per user in an eligible wallet for daily MCP point rewards. Points are calculated based on the user's share of the total OMI reward pool and are not retroactive.</li>
+<li>Spending and Withdrawing: Users can withdraw OMI at any time, but doing so makes those tokens ineligible for MCP rewards until redeposited.</li>
+</ul>
+<ol start="3">
+<li>Additional Requirements:</li>
+</ol>
+<ul>
+<li>Users must comply with VeVe's terms of use, including KYC, sanctions, and eligibility requirements for the web wallet and app.</li>
+<li>OMI token utilities and benefits may change, be added, or removed at the discretion of ECOMI Technology Pte. Ltd. and VeVe.</li>
+</ul>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.3: Conditions for modifications of rights and obligations</td>
+<td id="_TEMPLATE_G.3" style="color:#0066DF;"><ix:nonNumeric name="mica:InformationAboutConditionsForModificationsOfRightsAndObligationsExplanatory" contextRef="_ctx1" id="TEMPLATE_G.3" escape="false"><div style="color:#0066DF;"><p>There are no relevant conditions.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.4: Future public offers</td>
+<td id="_TEMPLATE_G.4" style="color:#0066DF;"><ix:nonNumeric name="mica:InformationAboutFuturePublicOffersExplanatory" contextRef="_ctx1" id="TEMPLATE_G.4" escape="false"><div style="color:#0066DF;"><p>There are no future offers planned.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.5: Issuer retained other token</td>
+<td id="_TEMPLATE_G.5" style="color:#0066DF;"><ix:nonNumeric name="mica:NumberOfIssuersRetainedOtherTokens" contextRef="_ctx1" id="TEMPLATE_G.5" escape="false"><div style="color:#0066DF;"><p>What can enter active circulation:</p>
+<ul>
+<li>Only 310,882,499,574 OMI can ever enter active circulation.
+From issuer-retained buckets, only Business Dev funds are eligible:
+BD1 + BD2 = 32,568,379,467 + 7,362,475,160 = 39,930,854,627 OMI (5.32% of total).
+The rest of the max active float is the current unlocked circulating amount:
+270,951,644,947 OMI (36.12% of total).
+What cannot enter circulating supply:</li>
+<li>Burned(VeVe Vault + Reserve): 341,155,991,726 OMI (45.48%) — permanently destroyed.</li>
+<li>Frozen (GoChain contracts): 97,961,508,700 OMI (13.06%) — permanently inaccessible.</li>
+</ul>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.6: Utility token classification</td>
+<td id="_TEMPLATE_G.6" style="color:#0066DF;"><ix:nonNumeric name="mica:UtilityTokenClassificationForOtherTokenIndicator" contextRef="_ctx1" id="TEMPLATE_G.6" escape="false"><div style="color:#0066DF;"><p>False.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.7: Key features of goods or services utility tokens</td>
+<td id="_TEMPLATE_G.7" style="color:#0066DF;"><ix:nonNumeric name="mica:KeyFeaturesOfGoodsAndServicesOfUtilityTokensExplanatory" contextRef="_ctx1" id="TEMPLATE_G.7" escape="false"><div style="color:#0066DF;"><p>Not applicable as OMI is not an utility token. OMI is not classified as a utility token under MiCAR. Under the regulation, a utility token is defined as a type of crypto-asset that is solely intended to provide access to a good or service supplied by its issuer. OMI does not possess these specific characteristics. Instead, OMI is classified as a general crypto-asset under Title II of MiCAR, falling outside the specific categories of e-money tokens, asset-referenced tokens, and utility tokens. OMI represents a digital value or right that can be transferred and stored electronically using distributed ledger technology, but it does not function exclusively as a mechanism for accessing goods or services from the issuer, which is the fundamental requirement for utility token classification under the MiCA framework.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.8: Utility tokens redemption</td>
+<td id="_TEMPLATE_G.8" style="color:#0066DF;"><ix:nonNumeric name="mica:UtilityTokensRedemptionExplanatory" contextRef="_ctx1" id="TEMPLATE_G.8" escape="false"><div style="color:#0066DF;"><p>Not applicable as OMI is not an utility token. OMI is not classified as a utility token under MiCAR. Under the regulation, a utility token is defined as a type of crypto-asset that is solely intended to provide access to a good or service supplied by its issuer. OMI does not possess these specific characteristics. Instead, OMI is classified as a general crypto-asset under Title II of MiCAR, falling outside the specific categories of e-money tokens, asset-referenced tokens, and utility tokens. OMI represents a digital value or right that can be transferred and stored electronically using distributed ledger technology, but it does not function exclusively as a mechanism for accessing goods or services from the issuer, which is the fundamental requirement for utility token classification under the MiCA framework.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.9: Non-trading request</td>
+<td id="_TEMPLATE_G.9" style="color:#0066DF;"><ix:nonNumeric name="mica:NontradingRequestIndicatorRelatedToOtherTokens" contextRef="_ctx1" id="TEMPLATE_G.9" escape="false"><div style="color:#0066DF;"><p>True.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.10: Other tokens purchase or sale modalities</td>
+<td id="_TEMPLATE_G.10" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokensPurchaseOrSaleModalitiesExplanatory" contextRef="_ctx1" id="TEMPLATE_G.10" escape="false"><div style="color:#0066DF;"><p>Not applicable, as this whitepaper is published in relation to the admission to trading of the OMI token and does not relate to any public offering.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.11: Other tokens transfer restrictions</td>
+<td id="_TEMPLATE_G.11" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokensTransferRestrictionsExplanatory" contextRef="_ctx1" id="TEMPLATE_G.11" escape="false"><div style="color:#0066DF;"><p>There are no ongoing lock-up periods affecting the transferability of OMI tokens.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.12: Supply adjustment protocols</td>
+<td id="_TEMPLATE_G.12" style="color:#0066DF;"><ix:nonNumeric name="mica:SupplyAdjustmentProtocolsIndicator" contextRef="_ctx1" id="TEMPLATE_G.12" escape="false"><div style="color:#0066DF;"><p>True.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.13: Supply adjustment mechanisms</td>
+<td id="_TEMPLATE_G.13" style="color:#0066DF;"><ix:nonNumeric name="mica:SupplyAdjustmentMechanismsExplanatory" contextRef="_ctx1" id="TEMPLATE_G.13" escape="false"><div style="color:#0066DF;"><p>OMI's supply adjustment protocols operates through token burning mechanisms, with no minting of new tokens after the initial supply generation. The main triggers and methods are as follows:</p>
+<p>Triggers for Supply Changes:</p>
+<ul>
+<li>The primary trigger for supply reduction is when you buy or sell a collectible on StackR, a small transaction fee applies.</li>
+</ul>
+<p>Methods Used to Adjust Supply:</p>
+<ul>
+<li>Burning: A percentage of every transaction fee is burned, meaning it's permanently removed from the circulating supply, making the OMI token truly deflationary.</li>
+</ul>
+<p>Management and Implementation:</p>
+<ul>
+<li>The burning process is managed by smart contracts</li>
+<li>No new supply is introduced, and all supply adjustments are reductions via burning or freezing. The process is transparent and can be monitored through public blockchain explorers and the official burn tracker.</li>
+</ul>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.14: Token value protection schemes</td>
+<td id="_TEMPLATE_G.14" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokenValueProtectionSchemesIndicator" contextRef="_ctx1" id="TEMPLATE_G.14" escape="false"><div style="color:#0066DF;"><p>True.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.15: Token value protection schemes description</td>
+<td id="_TEMPLATE_G.15" style="color:#0066DF;"><ix:nonNumeric name="mica:DescriptionOfOtherTokenValueProtectionSchemesExplanatory" contextRef="_ctx1" id="TEMPLATE_G.15" escape="false"><div style="color:#0066DF;"><p>There is no protection scheme.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.16: Compensation schemes</td>
+<td id="_TEMPLATE_G.16" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokenCompensationSchemesIndicator" contextRef="_ctx1" id="TEMPLATE_G.16" escape="false"><div style="color:#0066DF;"><p>False.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.17: Compensation schemes description</td>
+<td id="_TEMPLATE_G.17" style="color:#0066DF;"><ix:nonNumeric name="mica:DescriptionOfOtherTokenCompensationSchemesExplanatory" contextRef="_ctx1" id="TEMPLATE_G.17" escape="false"><div style="color:#0066DF;"><p>Not applicable.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.18: Applicable law</td>
+<td id="_TEMPLATE_G.18" style="color:#0066DF;"><ix:nonNumeric name="mica:ApplicableLawForOtherTokenExplanatory" contextRef="_ctx1" id="TEMPLATE_G.18" escape="false"><div style="color:#0066DF;"><p>Singapore.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">G.19: Competent court</td>
+<td id="_TEMPLATE_G.19" style="color:#0066DF;"><ix:nonNumeric name="mica:CompetentCourtForOtherTokenExplanatory" contextRef="_ctx1" id="TEMPLATE_G.19" escape="false"><div style="color:#0066DF;"><p>Singapore.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr><td colspan="2" style="color:#FFF;height:20px;border-width:0;"/></tr>
+<tr><td colspan="2" style="text-align:center;background-color:#0066DF;color:white;font-weight:bold;padding:10px;"><a id="Part_H_-_Information_on_the_underlying_technology">Part H - Information on the underlying technology</a></td></tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">H.1: Distributed ledger technology (DTL)</td>
+<td id="_TEMPLATE_H.1" style="color:#0066DF;"><ix:nonNumeric name="mica:DistributedLedgerTechnologyForOtherTokenExplanatory" contextRef="_ctx1" id="TEMPLATE_H.1" escape="false"><div style="color:#0066DF;"><p>Technology Architecture and Decentralized Systems:</p>
+<p>OMI token is an ERC-20 token currently operating on the Ethereum blockchain, with additional deployments on the Base network.</p>
+<p>Security, Transparency, and Data Integrity:</p>
+<ol>
+<li>Distribution of OMI tokens  benefit from the decentralized nature of Ethereum and Base blockchains. Transactions and asset ownership are recorded on distributed ledgers, reducing single points of failure and enhancing resilience.</li>
+<li>Cryptographic Security: Ethereum and Base use advanced cryptographic techniques.</li>
+<li>Immutability: Once transactions are finalized on Ethereum, they are immutable—meaning they cannot be altered or deleted.</li>
+<li>Transparency: All OMI token transactions are publicly viewable on their respective blockchains (Ethereum and Base), allowing anyone to verify asset provenance and transaction history.</li>
+<li>Consensus: Ethereum secures its network through a decentralized consensus mechanism (currently Proof of Stake), Base doesn't have its own independent consensus mechanism. Instead, it inherits security from Ethereum's proof-of-stake consensus.</li>
+</ol>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">H.2: Protocols and technical standards</td>
+<td id="_TEMPLATE_H.2" style="color:#0066DF;"><ix:nonNumeric name="mica:ProtocolsAndTechnicalStandardsForOtherTokenExplanatory" contextRef="_ctx1" id="TEMPLATE_H.2" escape="false"><div style="color:#0066DF;"><p>OMI token is implemented as an ERC-20 standard token on the Ethereum blockchain, which ensures interoperability with the broader Ethereum ecosystem and compatibility with wallets and exchanges that support ERC-20 tokens. The token has also been deployed on the Base network, further supporting cross-chain functionality.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">H.3: Technology used</td>
+<td id="_TEMPLATE_H.3" style="color:#0066DF;"><ix:nonNumeric name="mica:InformationAboutTechnologyUsedForOtherTokenExplanatory" contextRef="_ctx1" id="TEMPLATE_H.3" escape="false"><div style="color:#0066DF;"><p>OMI tokens can be managed and moved securely using a variety of technologies and tools:</p>
+<p>Wallet Types and Key Management:</p>
+<ul>
+<li>OMI tokens tokens are now held in self custody wallets for rewards and are not held on the VeVe app.</li>
+</ul>
+<p>Bridging and Transfers:</p>
+<ul>
+<li>ECOMI Technology Pte. Ltd. provides step-by-step guides for bridging OMI between Ethereum and Base, as well as for depositing and withdrawing OMI to and from the VeVe app. .</li>
+</ul>
+<p>Security Practices:</p>
+<ul>
+<li>For self-custody, users are encouraged to follow best practices for crypto security, including using hardware wallets for cold storage and keeping private keys and recovery phrases secure.</li>
+</ul>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">H.4: Consensus mechanism</td>
+<td id="_TEMPLATE_H.4" style="color:#0066DF;"><ix:nonNumeric name="mica:ConsensusMechanismForOtherTokenExplanatory" contextRef="_ctx1" id="TEMPLATE_H.4" escape="false"><div style="color:#0066DF;"><p>OMI is deployed as a token on multiple blockchains, each of which uses a distinct consensus mechanism to agree on transactions and maintain blockchain integrity:</p>
+<p>Ethereum: The Ethereum network uses a Proof of Stake (PoS) consensus mechanism called Gasper. In this system, validators are randomly selected to propose blocks every 12 seconds (slot time). Blocks are finalized when at least two-thirds of the total staked ether has voted for them, ensuring strong security and resistance to attacks. This mechanism provides both efficiency (fast block times) and security (finality through supermajority voting) for all tokens, including OMI, on the Ethereum chain.</p>
+<p>Base: Base is an Ethereum Layer 2 network built on the OP Stack, which uses an Optimistic Rollup model. Transactions are sequenced off-chain and periodically posted to Ethereum. The security of Base is inherited from Ethereum’s PoS consensus, and the network employs a fault proof system: transactions are considered valid unless challenged within a set period. This approach allows for high throughput and low fees while maintaining security through Ethereum’s consensus and the ability to challenge invalid transactions.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">H.5: Incentive mechanisms and applicable fees</td>
+<td id="_TEMPLATE_H.5" style="color:#0066DF;"><ix:nonNumeric name="mica:IncentiveMechanismsAndApplicableFeesForOtherTokenExplanatory" contextRef="_ctx1" id="TEMPLATE_H.5" escape="false"><div style="color:#0066DF;"><p>Network security for the OMI token is provided by the underlying blockchains (Ethereum, Base), and there is no public evidence of staking rewards or mining incentives specific to OMI holders. The OMI token does not operate its own consensus mechanism; therefore, participants are not rewarded for securing the network through OMI staking or mining. Any transaction fees for transferring OMI on-chain are standard blockchain gas fees, which are collected by the validators or miners of the respective blockchain (e.g., Ethereum or Base), not by ECOMI Technology Pte. Ltd. or the VeVe platform.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">H.6: Use of distributed ledger technology</td>
+<td id="_TEMPLATE_H.6" style="color:#0066DF;"><ix:nonNumeric name="mica:UseOfDistributedLedgerTechnologyIndicatorForOtherToken" contextRef="_ctx1" id="TEMPLATE_H.6" escape="false"><div style="color:#0066DF;"><p>False.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">H.7: DLT functionality description</td>
+<td id="_TEMPLATE_H.7" style="color:#0066DF;"><ix:nonNumeric name="mica:DescriptionOfDLTFunctionalityForOtherTokenExplanatory" contextRef="_ctx1" id="TEMPLATE_H.7" escape="false"><div style="color:#0066DF;"><p>Not applicable.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">H.8: Audit</td>
+<td id="_TEMPLATE_H.8" style="color:#0066DF;"><ix:nonNumeric name="mica:AuditIndicatorForOtherToken" contextRef="_ctx1" id="TEMPLATE_H.8" escape="false"><div style="color:#0066DF;"><p>False.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">H.9: Audit outcome</td>
+<td id="_TEMPLATE_H.9" style="color:#0066DF;"><ix:nonNumeric name="mica:AuditOutcomeForOtherTokenExplanatory" contextRef="_ctx1" id="TEMPLATE_H.9" escape="false"><div style="color:#0066DF;"><p>Not applicable.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr><td colspan="2" style="color:#FFF;height:20px;border-width:0;"/></tr>
+<tr><td colspan="2" style="text-align:center;background-color:#0066DF;color:white;font-weight:bold;padding:10px;"><a id="Part_I_-_Information_on_Risks">Part I - Information on Risks</a></td></tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">I.1: Offer-related risks</td>
+<td id="_TEMPLATE_I.1" style="color:#0066DF;"><ix:nonNumeric name="mica:DescriptionOfOfferrelatedRisksForOtherTokenExplanatory" contextRef="_ctx1" id="TEMPLATE_I.1" escape="false"><div style="color:#0066DF;"><p>Risk Disclosures:
+Market Volatility &amp; Liquidity</p>
+<p>OMI’s market value is determined on third‑party exchanges. Liquidity and price may fluctuate significantly. There is no assurance of continuous market access or depth.</p>
+<p>Governance &amp; Issuer Risk</p>
+<p>Single‑director governance concentrates decision‑making. Mitigations include documented approvals, multi‑sig treasury, and external advisers. Unexpected incapacity or key‑person risk is addressed via contingency procedures.</p>
+<p>Operational &amp; Third‑Party Dependence</p>
+<p>The ecosystem depends on exchanges, blockchain nodes, wallet providers, and other vendors. Service degradation, insolvency, or regulatory action affecting these parties could impact token utility or liquidity.</p>
+<p>Custody &amp; Private‑Key Risks</p>
+<p>Multi‑sig custody reduces key compromise risk but cannot eliminate it. Smart‑contract or wallet library vulnerabilities could impact access to funds or transaction execution.</p>
+<p>Network &amp; Smart‑Contract Risks</p>
+<p>Protocol upgrades, network congestion, or forks on Ethereum/Base could affect performance or finality. External audits and pre/post‑upgrade procedures mitigate, but do not eliminate, such risks.</p>
+<p>Regulatory Uncertainty</p>
+<p>Evolving interpretations of MiCA and local rules may change obligations for issuers and trading venues, potentially affecting token access or disclosures.</p>
+<p>Utility Continuity Risk</p>
+<p>OMI’s utility depends on continued operation of VeVe and StackR platforms. Service interruptions, policy changes, or deprecations could reduce practical utility.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">I.2: Issuer-related risks</td>
+<td id="_TEMPLATE_I.2" style="color:#0066DF;"><ix:nonNumeric name="mica:DescriptionOfIssuerrelatedRisksForOtherTokenExplanatory" contextRef="_ctx1" id="TEMPLATE_I.2" escape="false"><div style="color:#0066DF;"><p>Not applicable, as the offeror does not differ to the issuer.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">I.3: Other tokens-related risks</td>
+<td id="_TEMPLATE_I.3" style="color:#0066DF;"><ix:nonNumeric name="mica:OtherTokensrelatedRisksExplanatory" contextRef="_ctx1" id="TEMPLATE_I.3" escape="false"><div style="color:#0066DF;"><p>Risk factors associated with OMI crypto-asset include:</p>
+<p>Market Volatility &amp; Liquidity
+OMI’s market value is determined on third‑party exchanges. Liquidity and price may fluctuate significantly. There is no assurance of continuous market access or depth.</p>
+<p>Operational &amp; Third‑Party Dependence
+The ecosystem depends on exchanges, blockchain nodes, wallet providers, and other vendors. Service degradation, insolvency, or regulatory action affecting these parties could impact token utility or liquidity.</p>
+<p>Network &amp; Smart‑Contract Risks
+Protocol upgrades, network congestion, or forks on Ethereum/Base could affect performance or finality. External audits and pre/post‑upgrade procedures mitigate, but do not eliminate, such risks.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">I.4: Project implementation-related risks</td>
+<td id="_TEMPLATE_I.4" style="color:#0066DF;"><ix:nonNumeric name="mica:ProjectImplementationrelatedRisksExplanatory" contextRef="_ctx1" id="TEMPLATE_I.4" escape="false"><div style="color:#0066DF;"><p>Milestone and Migration Risks:
+ECOMI Technology Pte. Ltd. has set deadlines for token migrations (e.g., OMI to Base migration via StackR by August 1, 2025). Failure by users to migrate tokens by the deadline will result in ineligibility for rewards, and potentially loss of utility or access to certain features. Delays or technical issues in migration processes could hinder user participation and project milestones.</p>
+<p>Governance &amp; Issuer Risk
+Single‑director governance concentrates decision‑making. Mitigations include documented approvals, multi‑sig treasury, and external advisers. Unexpected incapacity or key‑person risk is addressed via contingency procedures.</p>
+<p>Custody &amp; Private‑Key Risks
+Multi‑sig custody reduces key compromise risk but cannot eliminate it. Smart‑contract or wallet library vulnerabilities could impact access to funds or transaction execution.</p>
+<p>Utility Continuity Risk
+OMI’s utility depends on continued operation of VeVe and StackR platforms. Service interruptions, policy changes, or deprecations could reduce practical utility.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">I.5: Technology-related risks</td>
+<td id="_TEMPLATE_I.5" style="color:#0066DF;"><ix:nonNumeric name="mica:DescriptionOfTechnologyrelatedRisksForOtherTokenExplanatory" contextRef="_ctx1" id="TEMPLATE_I.5" escape="false"><div style="color:#0066DF;"><p>Bridging and Migration Risks:
+The migration from GoChain to Ethereum required users to swap their tokens. Any bridging or migration process can introduce risks such as loss of funds due to user error, contract bugs, or malicious actors targeting the migration mechanism.</p>
+<p>Custodial and Backend Risks:
+OMI tokens tokens are now held in self custody wallets for rewards and are not held on the VeVe app. Users are responsible for the self-custody of their OMI tokens.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">I.6: Mitigation measures</td>
+<td id="_TEMPLATE_I.6" style="color:#0066DF;"><ix:nonNumeric name="mica:MitigationMeasuresForTechnologyRiskForOtherTokenExplanatory" contextRef="_ctx1" id="TEMPLATE_I.6" escape="false"><div style="color:#0066DF;"><p>Mitigation measures for technology-related risks in the ECOMI Technology Pte. Ltd. ecosystem, as described in official documentation and public communications, include:</p>
+<ul>
+<li>Use of a hardware Secure Wallet for cold storage of OMI tokens and other supported cryptocurrencies. The Secure Wallet employs CC EAL5+ security standards (a level used by banks), never connects directly to the internet, and requires physical confirmation for transactions. It also supports recovery via a seed phrase in case of loss or theft.</li>
+<li>Token migration security: During the migration from GoChain to Ethereum, users are repeatedly warned to use only official links, avoid phishing sites, and use MetaMask (desktop) exclusively for the swap. Users are advised to send small test transactions and double-check addresses to prevent loss of funds. The Secure Wallet supports both old and new OMI tokens, and users are cautioned against using hot wallets like MetaMask for long-term or large-value storage.</li>
+<li>General risk disclaimers: The whitepaper and official portals emphasize that users are responsible for their own security, including safeguarding private keys and being vigilant against scams. ECOMI Technology Pte. Ltd. disclaims liability for losses due to user error, security breaches, or regulatory changes.</li>
+<li>Incident response: In March 2022, following an exploit in the VeVe marketplace (in-app token/gem exploit), the marketplace and related features were temporarily closed while the incident was investigated. This response was publicly communicated, though no detailed technical mitigation steps were published in the provided context.</li>
+</ul>
+<p>No public evidence was found in the provided context regarding formal smart contract audits, bug bounty programs, or detailed technical post-mortems of past incidents.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr><td colspan="2" style="color:#FFF;height:20px;border-width:0;"/></tr>
+<tr><td colspan="2" style="text-align:center;background-color:#0066DF;color:white;font-weight:bold;padding:10px;"><a id="Part_J_–_Information_on_the_sustainability_indicators_in_relation_to_adverse_impact_on_the_climate_and_other_environment-related_adverse_impacts">Part J – Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts</a></td></tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">S.1: Name</td>
+<td id="_TEMPLATE_S.1" style="color:#0066DF;"><ix:nonNumeric name="mica:Name" contextRef="_ctx1" id="TEMPLATE_S.1" escape="false"><div style="color:#0066DF;"><p>ECOMI Technology PTE. LTD.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">S.2: Relevant legal entity identifier</td>
+<td id="_TEMPLATE_S.2" style="color:#0066DF;"><ix:nonNumeric name="mica:RelevantLegalEntityIdentifier" contextRef="_ctx1" id="TEMPLATE_S.2" escape="false"><div style="color:#0066DF;"><p>9845003CBD4V52EF4C80</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">S.3: Name of the crypto-asset</td>
+<td id="_TEMPLATE_S.3" style="color:#0066DF;"><ix:nonNumeric name="mica:NameOfCryptoAssetSustainability" contextRef="_ctx1" id="TEMPLATE_S.3" escape="false"><div style="color:#0066DF;"><p>OMI</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">S.4: Consensus mechanism</td>
+<td id="_TEMPLATE_S.4" style="color:#0066DF;"><ix:nonNumeric name="mica:ConsensusMechanismSustainabilityExplanatory" contextRef="_ctx1" id="TEMPLATE_S.4" escape="false"><div style="color:#0066DF;"><p>Token / No Consensus Algorithm</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">S.5: Incentive mechanisms and applicable fees</td>
+<td id="_TEMPLATE_S.5" style="color:#0066DF;"><ix:nonNumeric name="mica:IncentiveMechanismsAndApplicableFeesSustainabilityExplanatory" contextRef="_ctx1" id="TEMPLATE_S.5" escape="false"><div style="color:#0066DF;"><p>Tokens do not have an own consensus mechanism, but rely on the consensus mechanism of one or multiple underlying crypto-asset networks. Depending on the token design, incentive mechanisms arise from the utility, scarcity, or governance rights.</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">S.6: Beginning of period to which disclosed information relates</td>
+<td id="_TEMPLATE_S.6" style="color:#0066DF;"><ix:nonNumeric name="mica:BeginningOfPeriodToWhichDisclosedInformationRelates" contextRef="_ctx1" id="TEMPLATE_S.6" escape="false"><div style="color:#0066DF;"><p>2025-10-03</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">S.7: End of period to which disclosed information relates</td>
+<td id="_TEMPLATE_S.7" style="color:#0066DF;"><ix:nonNumeric name="mica:EndOfPeriodToWhichDisclosedInformationRelates" contextRef="_ctx1" id="TEMPLATE_S.7" escape="false"><div style="color:#0066DF;"><p>2025-10-16</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">S.8: Energy consumption</td>
+<td id="_TEMPLATE_S.8" style="color:#0066DF;"><ix:nonNumeric name="mica:EnergyConsumption" contextRef="_ctx1" id="TEMPLATE_S.8" escape="false"><div style="color:#0066DF;"><p>7.81818</p>
+</div></ix:nonNumeric></td>
+</tr>
+<tr>
+<td style="background-color:#92D050; width:30%;">S.9: Energy consumption sources and methodologies</td>
+<td id="_TEMPLATE_S.9" style="color:#0066DF;"><ix:nonNumeric name="mica:DescriptionOfEnergyConsumptionSourcesAndMethodologiesExplanatory" contextRef="_ctx1" id="TEMPLATE_S.9" escape="false"><div style="color:#0066DF;"><p>All indicators are based on a set of assumptions and thus represent estimates; methodology description and overview of input data, external datasets and underlying assumptions available at: https://carbon-ratings.com/dl/whitepaper-mica-methods-2024 and https://docs.mica.api.carbon-ratings.com. We do not account for any offsetting of energy consumption or other market-based mechanism as of today.</p>
+</div></ix:nonNumeric></td>
+</tr>
+</table>
+</body>
+</html>
